@@ -7,7 +7,6 @@ MAX_LON="-121.0"
 MAX_LAT="42.0"
 MIN_LAT="40.0"
 
-rm -rf work/section-6
 mkdir -p work/section-6/2016-2017
 mkdir -p work/section-6/2015-2016
 mkdir -p work/section-6/2014-2015
@@ -33,17 +32,17 @@ for i in `seq 0 1 6`
           --stop-date 201$ip1-01-01 \
           --output-stem work/section-6/201$i-201$ip1/data \
           -vv
-  #pygeons autoclean work/section-6/201$i-201$ip1/data.h5 \
-  #        --output-stem work/section-6/201$i-201$ip1/data.clean \
-  #        -vv
+  pygeons autoclean work/section-6/201$i-201$ip1/data.h5 \
+          --output-stem work/section-6/201$i-201$ip1/data.clean \
+          -vv
   done
 
-#pygeons merge work/section-6/2010-2011/data.clean.h5 \
-#              work/section-6/2011-2012/data.clean.h5 \
-#              work/section-6/2012-2013/data.clean.h5 \
-#              work/section-6/2013-2014/data.clean.h5 \
-#              work/section-6/2014-2015/data.clean.h5 \
-#              work/section-6/2015-2016/data.clean.h5 \
-#              work/section-6/2016-2017/data.clean.h5 \
-#        --output-stem work/section-6/data.clean.merged \
-#        -vv
+pygeons merge work/section-6/2010-2011/data.clean.h5 \
+              work/section-6/2011-2012/data.clean.h5 \
+              work/section-6/2012-2013/data.clean.h5 \
+              work/section-6/2013-2014/data.clean.h5 \
+              work/section-6/2014-2015/data.clean.h5 \
+              work/section-6/2015-2016/data.clean.h5 \
+              work/section-6/2016-2017/data.clean.h5 \
+        --output-stem work/section-6/data.clean.merged \
+        -vv
