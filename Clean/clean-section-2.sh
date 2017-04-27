@@ -1,10 +1,11 @@
 #!/bin/bash
-# this script cleans data in the north-east section of the Pacific
+# this script cleans data in the south-east section of the Pacific
 # Northwest
 
 FILE="data-2017-04-26.h5"
 MIN_LON="-121.0"
 MAX_LAT="42.0"
+MIN_LAT="40.0"
 
 rm -rf work/section-2
 mkdir -p work/section-2/2016-2017
@@ -26,6 +27,7 @@ for i in `seq 0 1 6`
   ip1=$((i+1))
   pygeons crop work/section-2/data.h5 \
           --max-lat $MAX_LAT \
+          --min-lat $MIN_LAT \
           --min-lon $MIN_LON \
           --start-date 201$i-01-01 \
           --stop-date 201$ip1-01-01 \
