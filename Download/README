@@ -1,0 +1,5 @@
+This directory contains scripts for downloading, formatting, and
+lightly cleaning, daily displacement time series for GPS stations in
+the Pacific Northwest. Running "make_data.sh" will generate a PyGeoNS
+data file named "data.h5" as well as a file "data.txt" which contains
+a list of edits made to the dataset. 
