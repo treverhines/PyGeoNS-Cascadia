@@ -1,0 +1,14 @@
+#!/bin/sh
+#PBS -A ehetland_flux
+#PBS -M hinest@umich.edu
+#PBS -N sample_pygeons
+#PBS -m abe
+#PBS -V
+#PBS -j oe
+#PBS -o sample_pygeons.log
+#PBS -q flux
+#PBS -l qos=flux
+#PBS -l nodes=1:ppn=4,mem=8000mb,walltime=01:00:00
+
+cd $PBS_O_WORKDIR
+pygeons -h
