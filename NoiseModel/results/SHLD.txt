@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/SHLD.h5
+units : m
+stations : 1
+times : 2558
+observations : 7582
+time range : 2010-01-01, 2017-01-01
+longitude range : -119.015684636, -119.015684636
+latitude range : 41.8683674174, 41.8683674174
+station names : SHLD
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/SHLD.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/SHLD.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/SHLD.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 4.8878e-01, 2.2487e-01
+    optimal north parameters : 3.6428e-01, 1.0228e-01
+    optimal vertical parameters : 9.1496e+00, 8.3222e-01
+log likelihood :
+    east : 13874.6666337
+    north : 13473.0685426
+    vertical : 10017.5900888
+output file : results/SHLD.txt
+
+--------------------------------------------------------------

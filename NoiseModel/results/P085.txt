@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/P085.h5
+units : m
+stations : 1
+times : 2558
+observations : 7654
+time range : 2010-01-01, 2017-01-01
+longitude range : -116.736212512, -116.736212512
+latitude range : 40.4954617419, 40.4954617419
+station names : P085
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/P085.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/P085.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/P085.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 4.5635e-01, 2.0992e-01
+    optimal north parameters : 1.5190e-01, 8.4777e-07
+    optimal vertical parameters : 8.0776e+00, 7.6764e-01
+log likelihood :
+    east : 13915.34364
+    north : 13627.4097663
+    vertical : 10118.9558429
+output file : results/P085.txt
+
+--------------------------------------------------------------

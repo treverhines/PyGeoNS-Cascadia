@@ -2,5 +2,6 @@
 */junk
 *.h5
 *.csv
+*.log
 *~
 

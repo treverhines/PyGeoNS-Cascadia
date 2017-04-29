@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/LEWI.h5
+units : m
+stations : 1
+times : 2558
+observations : 7605
+time range : 2010-01-01, 2017-01-01
+longitude range : -116.861873008, -116.861873008
+latitude range : 40.4035127952, 40.4035127952
+station names : LEWI
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/LEWI.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/LEWI.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/LEWI.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 8.8739e-01, 3.3273e-01
+    optimal north parameters : 6.1061e-01, 1.5206e-06
+    optimal vertical parameters : 1.1769e+01, 1.0302e+00
+log likelihood :
+    east : 13745.8707176
+    north : 13311.0742665
+    vertical : 9796.3504975
+output file : results/LEWI.txt
+
+--------------------------------------------------------------

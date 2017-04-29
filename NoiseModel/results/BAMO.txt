@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/BAMO.h5
+units : m
+stations : 1
+times : 2558
+observations : 7310
+time range : 2010-01-01, 2017-01-01
+longitude range : -117.204566187, -117.204566187
+latitude range : 40.4127505271, 40.4127505271
+station names : BAMO
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/BAMO.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/BAMO.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/BAMO.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 6.2949e-01, 2.8458e-01
+    optimal north parameters : 4.3126e-01, 4.8692e-01
+    optimal vertical parameters : 1.7109e+01, 3.3225e+00
+log likelihood :
+    east : 13927.1866201
+    north : 13787.246199
+    vertical : 10067.7877292
+output file : results/BAMO.txt
+
+--------------------------------------------------------------

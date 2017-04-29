@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/SHIN.h5
+units : m
+stations : 1
+times : 2558
+observations : 7651
+time range : 2010-01-01, 2017-01-01
+longitude range : -120.225043598, -120.225043598
+latitude range : 40.5916788935, 40.5916788935
+station names : SHIN
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/SHIN.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/SHIN.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/SHIN.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 7.8771e-01, 5.5037e-06
+    optimal north parameters : 3.5072e-01, 2.8378e-06
+    optimal vertical parameters : 8.5884e+00, 7.2786e-01
+log likelihood :
+    east : 14042.4467743
+    north : 13727.9333532
+    vertical : 10195.1629792
+output file : results/SHIN.txt
+
+--------------------------------------------------------------

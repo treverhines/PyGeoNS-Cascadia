@@ -1,0 +1,60 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : stations/GARL.h5
+units : m
+stations : 1
+times : 2558
+observations : 7639
+time range : 2010-01-01, 2017-01-01
+longitude range : -119.355457028, -119.355457028
+latitude range : 40.416526696, 40.416526696
+station names : GARL
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : stations/GARL.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : results/GARL.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : stations/GARL.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    optimal east parameters : 
+    optimal north parameters : 
+    optimal vertical parameters : 
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 8.3561e-01, 2.2848e-01
+    optimal north parameters : 4.1176e-01, 4.7428e-08
+    optimal vertical parameters : 8.1515e+00, 8.0625e-01
+log likelihood :
+    east : 13771.0427689
+    north : 13599.4238006
+    vertical : 9963.26515209
+output file : results/GARL.txt
+
+--------------------------------------------------------------
