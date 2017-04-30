@@ -1,0 +1,7 @@
+This directory contains scripts for cleaning raw GPS displacement time
+series. The data was broken up spatially into sections and then
+temporally broken up by year. Each data subset was cleaned with
+pygeons autoclean. The cleaned data subsets were merged together in
+the file *data.clean.merged.h5*. Finally, the merged data was visually
+inspected, manually edited, and saved in *data.final.h5*. Manual edits
+are recorded in *data.final.txt*.
