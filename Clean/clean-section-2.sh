@@ -14,7 +14,7 @@ cd $PBS_O_WORKDIR
 # this script cleans data in the south-east section of the Pacific
 # Northwest
 
-FILE="data-2017-04-26.clean.h5"
+FILE="data-2017-04-26.h5"
 MIN_LON="-121.0"
 MAX_LAT="42.0"
 MIN_LAT="40.0"
