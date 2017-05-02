@@ -27,7 +27,7 @@ station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
 
 input file : sse/2011a/data.h5
 network :
-    model : se-se
+    model : mat32-se
     parameter units : mm, yr, km
     fixed parameters : 
     initial east parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
@@ -48,12 +48,12 @@ output file : sse/2011a/data.reml.txt
 
 input file : sse/2011a/data.h5
 network :
-    model : se-se
+    model : mat32-se
     parameter units : mm, yr, km
     fixed parameters : 
-    optimal east parameters : 5.8705e-01, 3.2743e-02, 8.3706e+01
-    optimal north parameters : 5.0086e-01, 4.3579e-02, 6.9857e+01
-    optimal vertical parameters : 2.2245e+00, 2.1871e-03, 6.8109e+29
+    optimal east parameters : 7.9837e-01, 6.9219e-02, 8.4381e+01
+    optimal north parameters : 5.5963e-01, 6.1904e-02, 7.8921e+01
+    optimal vertical parameters : 2.2654e+00, 2.8782e-03, 1.4138e+09
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -62,9 +62,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 32027.457103
-    north : 31034.6234966
-    vertical : 24227.0852551
+    east : 32026.6256723
+    north : 31033.4199135
+    vertical : 24227.4546977
 output file : sse/2011a/data.reml.txt
 
 --------------------------------------------------------------

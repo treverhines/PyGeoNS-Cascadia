@@ -1,0 +1,74 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : sse/2013a/data.h5
+units : m
+stations : 100
+times : 121
+observations : 31261
+time range : 2013-02-01, 2013-06-01
+longitude range : -124.557151446, -120.005200237
+latitude range : 43.6143111943, 47.9698466543
+station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
+                KTBW, LINH, LKCP, NEWP, P063, P064, P065
+                P366, P367, P373, P374, P375, P376, P377
+                P378, P379, P383, P384, P385, P387, P389
+                P395, P396, P397, P398, P399, P400, P401
+                P402, P404, P405, P406, P407, P408, P409
+                P410, P411, P412, P414, P415, P416, P417
+                P418, P419, P420, P421, P423, P424, P425
+                P426, P427, P428, P429, P430, P431, P432
+                P434, P445, P446, P448, P687, P688, P689
+                P690, P691, P692, P693, P694, P695, P696
+                P697, P698, P699, P700, P701, P702, P703
+                P704, P705, P791, P792, P815, P816, PABH
+                PCOL, PMAR, PUPU, REDM, SC00, SC03, SEAT
+                TPW2, TWHL
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : sse/2013a/data.h5
+network :
+    model : se-se
+    parameter units : mm, yr, km
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
+    initial north parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
+    initial vertical parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
+station :
+    model : p0, p1, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 0, 1, 2
+    initial east parameters : 6.3000e-01, 2.3000e-01
+    initial north parameters : 4.4000e-01, 4.0000e-02
+    initial vertical parameters : 1.1200e+01, 1.1500e+00
+output file : sse/2013a/data.reml.txt
+
+--------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : sse/2013a/data.h5
+network :
+    model : se-se
+    parameter units : mm, yr, km
+    fixed parameters : 
+    optimal east parameters : 9.3125e-01, 6.2648e-02, 3.4869e+01
+    optimal north parameters : 5.4966e-01, 5.4323e-02, 8.4869e+01
+    optimal vertical parameters : 2.9739e+00, 2.7544e-03, 1.2638e+15
+station :
+    model : p0 p1 fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 0, 1, 2
+    optimal east parameters : 6.3000e-01, 2.3000e-01
+    optimal north parameters : 4.4000e-01, 4.0000e-02
+    optimal vertical parameters : 1.1200e+01, 1.1500e+00
+log likelihood :
+    east : 55295.1903023
+    north : 53918.2859473
+    vertical : 42222.1578836
+output file : sse/2013a/data.reml.txt
+
+--------------------------------------------------------------

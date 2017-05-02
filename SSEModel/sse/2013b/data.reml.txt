@@ -1,31 +1,29 @@
 
 ------------------ PYGEONS DATA INFORMATION ------------------
 
-file : sse/2011a/data.h5
+file : sse/2013b/data.h5
 units : m
-stations : 76
-times : 93
-observations : 17906
-time range : 2011-05-01, 2011-08-01
-longitude range : -124.061887515, -120.005200237
-latitude range : 43.6143111943, 46.9509248272
-station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
-                NEWP, P063, P065, P366, P367, P373, P374
-                P375, P376, P377, P378, P379, P383, P384
-                P385, P387, P389, P395, P396, P397, P398
-                P404, P405, P406, P407, P408, P409, P410
-                P411, P412, P414, P415, P417, P420, P421
-                P425, P427, P428, P429, P431, P432, P445
-                P446, P448, P687, P688, P689, P690, P691
-                P692, P693, P694, P695, P696, P697, P698
-                P699, P700, P701, P702, P703, P704, P705
-                P791, P792, PMAR, REDM, SC00, TPW2
+stations : 58
+times : 124
+observations : 19553
+time range : 2013-07-01, 2013-11-01
+longitude range : -125.541641065, -120.149583683
+latitude range : 46.5318563355, 49.2948104293
+station names : ALBH, BAMF, BLYN, CHWK, CPXX, CSHQ, CSHR
+                KTBW, LINH, LKCP, NANO, NEAH, P064, P065
+                P398, P399, P400, P401, P402, P403, P413
+                P415, P416, P417, P418, P419, P420, P421
+                P423, P424, P426, P430, P431, P432, P434
+                P435, P436, P437, P438, P439, P440, P441
+                P442, P443, P444, P815, P816, PABH, PCOL
+                PUPU, SC00, SC02, SC03, SC04, SEAT, SEDR
+                TWHL, UCLU
 
 --------------------------------------------------------------
 
 ---------------- PYGEONS REML RUN INFORMATION ----------------
 
-input file : sse/2011a/data.h5
+input file : sse/2013b/data.h5
 network :
     model : se-se
     parameter units : mm, yr, km
@@ -40,20 +38,20 @@ station :
     initial east parameters : 6.3000e-01, 2.3000e-01
     initial north parameters : 4.4000e-01, 4.0000e-02
     initial vertical parameters : 1.1200e+01, 1.1500e+00
-output file : sse/2011a/data.reml.txt
+output file : sse/2013b/data.reml.txt
 
 --------------------------------------------------------------
 
 -------------------- PYGEONS REML RESULTS --------------------
 
-input file : sse/2011a/data.h5
+input file : sse/2013b/data.h5
 network :
     model : se-se
     parameter units : mm, yr, km
     fixed parameters : 
-    optimal east parameters : 5.8705e-01, 3.2743e-02, 8.3706e+01
-    optimal north parameters : 5.0086e-01, 4.3579e-02, 6.9857e+01
-    optimal vertical parameters : 2.2245e+00, 2.1871e-03, 6.8109e+29
+    optimal east parameters : 5.7797e-01, 3.6067e-02, 8.9528e+01
+    optimal north parameters : 5.9135e-01, 4.7370e-02, 4.9205e+01
+    optimal vertical parameters : 3.9946e+00, 3.9247e-03, 1.6162e+08
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -62,9 +60,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 32027.457103
-    north : 31034.6234966
-    vertical : 24227.0852551
-output file : sse/2011a/data.reml.txt
+    east : 34986.8809611
+    north : 33254.0719243
+    vertical : 25717.8007269
+output file : sse/2013b/data.reml.txt
 
 --------------------------------------------------------------

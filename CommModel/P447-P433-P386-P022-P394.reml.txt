@@ -1,0 +1,35 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : P447-P433-P386-P022-P394.h5
+units : m
+stations : 5
+times : 2558
+observations : 36918
+time range : 2010-01-01, 2017-01-01
+longitude range : -119.872011598, -117.799637773
+latitude range : 44.4028279416, 45.4528215459
+station names : P022, P386, P394, P433, P447
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : P447-P433-P386-P022-P394.h5
+network :
+    model : exp-p0
+    parameter units : mm, yr
+    fixed parameters : 1
+    initial east parameters : 5.0000e-01, 1.0000e-10
+    initial north parameters : 5.0000e-01, 1.0000e-10
+    initial vertical parameters : 5.0000e-01, 1.0000e-10
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : P447-P433-P386-P022-P394.reml.txt
+
+--------------------------------------------------------------
