@@ -33,5 +33,5 @@ def download(url):
   f.write(pos_string)
   f.close()
 
-parmap(download,urls,workers=2)
+parmap(download,urls,workers=4)
 

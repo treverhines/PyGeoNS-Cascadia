@@ -15,11 +15,13 @@ cd $PBS_O_WORKDIR
 # this script cleans data in the south-central-west section of the
 # Pacific Northwest
 
-FILE="data-2017-04-26.h5"
+FILE="data-2017-05-03.h5"
+MIN_LON="-130.0"
 MAX_LON="-121.0"
-MAX_LAT="45.0"
 MIN_LAT="42.0"
+MAX_LAT="45.0"
 
+mkdir -p work/section-5/2017-2018
 mkdir -p work/section-5/2016-2017
 mkdir -p work/section-5/2015-2016
 mkdir -p work/section-5/2014-2015
@@ -27,29 +29,34 @@ mkdir -p work/section-5/2013-2014
 mkdir -p work/section-5/2012-2013
 mkdir -p work/section-5/2011-2012
 mkdir -p work/section-5/2010-2011
+mkdir -p work/section-5/2009-2010
 
-for i in `seq 0 1 6`
+#for yr in 2009 2010 2011 2012 2013 2014 2015 2016 2017
+for yr in 2009 2017
   do
-  ip1=$((i+1))
+  yrp1=$((yr+1))
   pygeons crop $FILE \
-          --max-lon $MAX_LON \
           --min-lat $MIN_LAT \
+          --min-lon $MIN_LON \
           --max-lat $MAX_LAT \
-          --start-date 201$i-01-01 \
-          --stop-date 201$ip1-01-01 \
-          --output-stem work/section-5/201$i-201$ip1/data \
+          --max-lon $MAX_LON \
+          --start-date $yr-01-01 \
+          --stop-date $yrp1-01-01 \
+          --output-stem work/section-5/$yr-$yrp1/data \
           -vv &>> work/section-5.log
-  pygeons autoclean work/section-5/201$i-201$ip1/data.h5 \
-          --output-stem work/section-5/201$i-201$ip1/data.clean \
+  pygeons autoclean work/section-5/$yr-$yrp1/data.h5 \
+          --output-stem work/section-5/$yr-$yrp1/data.clean \
           -vv &>> work/section-5.log
   done
 
-pygeons merge work/section-5/2010-2011/data.clean.h5 \
+pygeons merge work/section-5/2009-2010/data.clean.h5 \
+              work/section-5/2010-2011/data.clean.h5 \
               work/section-5/2011-2012/data.clean.h5 \
               work/section-5/2012-2013/data.clean.h5 \
               work/section-5/2013-2014/data.clean.h5 \
               work/section-5/2014-2015/data.clean.h5 \
               work/section-5/2015-2016/data.clean.h5 \
               work/section-5/2016-2017/data.clean.h5 \
+              work/section-5/2017-2018/data.clean.h5 \
         --output-stem work/section-5/data.clean.merged \
         -vv &>> work/section-5.log

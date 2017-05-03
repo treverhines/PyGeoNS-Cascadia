@@ -33,3 +33,28 @@ station :
 output file : P447-P433-P386-P022-P394.reml.txt
 
 --------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : P447-P433-P386-P022-P394.h5
+network :
+    model : exp-p0
+    parameter units : mm, yr
+    fixed parameters : 1
+    optimal east parameters : 1.3768e-150, 1.0000e-10
+    optimal north parameters : 2.3524e-144, 1.0000e-10
+    optimal vertical parameters : 3.4666e+00, 1.0000e-10
+station :
+    model : p0 p1 per fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    optimal east parameters : 5.8058e-01, 1.1864e-01
+    optimal north parameters : 4.9620e-01, 9.3829e-02
+    optimal vertical parameters : 1.0074e+00, 1.0031e+00
+log likelihood :
+    east : 68331.5198591
+    north : 65846.3914845
+    vertical : 49877.0756914
+output file : P447-P433-P386-P022-P394.reml.txt
+
+--------------------------------------------------------------
