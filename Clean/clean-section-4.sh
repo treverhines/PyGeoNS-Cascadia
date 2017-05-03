@@ -42,10 +42,10 @@ for yr in 2009 2010 2011 2012 2013 2014 2015 2016 2017
           --start-date $yr-01-01 \
           --stop-date $yrp1-01-01 \
           --output-stem work/section-4/$yr-$yrp1/data \
-          -vv &>> work/section-4.log
+          -vv &> work/section-4.log
   pygeons autoclean work/section-4/$yr-$yrp1/data.h5 \
           --output-stem work/section-4/$yr-$yrp1/data.clean \
-          -vv &>> work/section-4.log
+          -vv &> work/section-4.log
   done
 
 pygeons merge work/section-4/2009-2010/data.clean.h5 \
@@ -58,4 +58,4 @@ pygeons merge work/section-4/2009-2010/data.clean.h5 \
               work/section-4/2016-2017/data.clean.h5 \
               work/section-4/2017-2018/data.clean.h5 \
         --output-stem work/section-4/data.clean.merged \
-        -vv &>> work/section-4.log
+        -vv &> work/section-4.log
