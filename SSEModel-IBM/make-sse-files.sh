@@ -84,11 +84,11 @@ pygeons crop data.final.h5 \
 
 # 2013b
 # lat : 45.5 - 51.0
-# date : 2013-07-01 - 2013-11-01
+# date : 2013-08-01 - 2013-12-01
 mkdir -p sse/2013b
 pygeons crop data.final.h5 \
-        --start-date 2013-07-01 \
-        --stop-date 2013-11-01 \
+        --start-date 2013-08-01 \
+        --stop-date 2013-12-01 \
         --min-lat 45.5 \
         --max-lat 51.0 \
         --max-lon -120.0 \

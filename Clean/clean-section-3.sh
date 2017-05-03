@@ -30,8 +30,7 @@ mkdir -p work/section-3/2011-2012
 mkdir -p work/section-3/2010-2011
 mkdir -p work/section-3/2009-2010
 
-#for yr in 2009 2010 2011 2012 2013 2014 2015 2016 2017
-for yr in 2009 2017
+for yr in 2009 2010 2011 2012 2013 2014 2015 2016 2017
   do
   yrp1=$((yr+1))
   pygeons crop $FILE \
