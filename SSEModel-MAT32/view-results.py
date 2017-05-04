@@ -6,7 +6,7 @@ import os
 import matplotlib.pyplot as plt
 np.random.seed(0)
 
-names = ['2010a','2011a','2011b','2012a','2013a','2013b','2014a','2015a','2016a']
+names = ['2009a','2010a','2011a','2011b','2012a','2013a','2013b','2014a','2015a','2016a'] #,'2017a']
 files = ['sse/%s/data.reml.txt' % i for i in names]
 
 

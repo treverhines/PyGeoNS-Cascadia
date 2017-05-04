@@ -6,7 +6,7 @@ import os
 import matplotlib.pyplot as plt
 np.random.seed(0)
 
-names = ['2010a','2011a','2011b','2012a','2013a','2013b','2014a','2015a','2016a']
+names = ['2009a','2010a','2011a','2011b','2012a','2013a','2013b','2014a','2015a','2016a'] #,'2017a']
 files = ['sse/%s/data.reml.txt' % i for i in names]
 
 
@@ -23,9 +23,14 @@ for f in files:
   units = _get_field('parameter units',content).strip().split(',')
   for dir in ['east','north','vertical']:
     params = _get_field('optimal %s parameters' % dir,content).strip().split(',')
-    params0[dir] += [float(params[0])]
-    params1[dir] += [float(params[1])]
-    params2[dir] += [float(params[2])]
+    if np.isfinite(float(params[0])):
+      params0[dir] += [float(params[0])]
+
+    if np.isfinite(float(params[1])):
+      params1[dir] += [float(params[1])]
+      
+    if np.isfinite(float(params[2])):
+      params2[dir] += [float(params[2])]
 
 east_p0 = params0['east']
 north_p0 = params0['north']

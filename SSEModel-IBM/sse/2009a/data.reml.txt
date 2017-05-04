@@ -29,12 +29,12 @@ station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
 
 input file : sse/2009a/data.h5
 network :
-    model : se-se
-    parameter units : mm, yr, km
-    fixed parameters : 
-    initial east parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
-    initial north parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
-    initial vertical parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
+    model : ibm-se
+    parameter units : mm/yr^1.5, mjd, km
+    fixed parameters : 1
+    initial east parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
+    initial north parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
+    initial vertical parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
 station :
     model : p0, p1, fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -50,12 +50,12 @@ output file : sse/2009a/data.reml.txt
 
 input file : sse/2009a/data.h5
 network :
-    model : se-se
-    parameter units : mm, yr, km
-    fixed parameters : 
-    optimal east parameters : 7.1230e-01, 3.4459e-02, 8.7760e+01
-    optimal north parameters : 5.9239e-01, 5.7856e-02, 5.7248e+01
-    optimal vertical parameters : 2.3994e+00, 1.7708e-04, 4.3110e+19
+    model : ibm-se
+    parameter units : mm/yr^1.5, mjd, km
+    fixed parameters : 1
+    optimal east parameters : 1.4791e+02, 5.4832e+04, 1.0350e+02
+    optimal north parameters : 6.4547e+01, 5.4832e+04, 6.8011e+01
+    optimal vertical parameters : 3.2511e+04, 5.4832e+04, 6.4804e+08
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -64,9 +64,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 52551.322601
-    north : 50650.8306495
-    vertical : 39522.9622176
+    east : 52538.8687006
+    north : 50636.9747238
+    vertical : 39460.5569214
 output file : sse/2009a/data.reml.txt
 
 --------------------------------------------------------------

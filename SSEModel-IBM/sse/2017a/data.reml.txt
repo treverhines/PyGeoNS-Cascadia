@@ -30,12 +30,12 @@ station names : ALBH, BAMF, BLYN, CHWK, CPXX, CSHQ, CSHR
 
 input file : sse/2017a/data.h5
 network :
-    model : se-se
-    parameter units : mm, yr, km
-    fixed parameters : 
-    initial east parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
-    initial north parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
-    initial vertical parameters : 1.0000e+00, 5.0000e-02, 5.0000e+01
+    model : ibm-se
+    parameter units : mm/yr^1.5, mjd, km
+    fixed parameters : 1
+    initial east parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
+    initial north parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
+    initial vertical parameters : 1.0000e+01, 5.4832e+04, 5.0000e+01
 station :
     model : p0, p1, fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -51,12 +51,12 @@ output file : sse/2017a/data.reml.txt
 
 input file : sse/2017a/data.h5
 network :
-    model : se-se
-    parameter units : mm, yr, km
-    fixed parameters : 
-    optimal east parameters : 6.0873e-01, 8.0143e-03, 1.1145e+02
-    optimal north parameters : 4.7076e-01, 1.2555e-02, 1.7103e+02
-    optimal vertical parameters : 4.2090e+00, 2.6775e-03, inf
+    model : ibm-se
+    parameter units : mm/yr^1.5, mjd, km
+    fixed parameters : 1
+    optimal east parameters : 1.1619e+03, 5.4832e+04, 3.0382e+02
+    optimal north parameters : 5.7910e+02, 5.4832e+04, 9.2147e+02
+    optimal vertical parameters : 3.3826e+04, 5.4832e+04, 6.8170e+14
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -65,9 +65,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 45845.3630225
-    north : 44274.8293656
-    vertical : 34690.5966493
+    east : 45823.2920468
+    north : 44264.2921741
+    vertical : 34656.2047808
 output file : sse/2017a/data.reml.txt
 
 --------------------------------------------------------------

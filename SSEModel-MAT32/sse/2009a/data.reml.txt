@@ -45,3 +45,28 @@ station :
 output file : sse/2009a/data.reml.txt
 
 --------------------------------------------------------------
+
+-------------------- PYGEONS REML RESULTS --------------------
+
+input file : sse/2009a/data.h5
+network :
+    model : mat32-se
+    parameter units : mm, yr, km
+    fixed parameters : 
+    optimal east parameters : 9.2890e-01, 6.9487e-02, 8.7078e+01
+    optimal north parameters : 7.1135e-01, 8.9824e-02, 5.8981e+01
+    optimal vertical parameters : 2.3994e+00, 1.6983e-04, inf
+station :
+    model : p0 p1 fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 0, 1, 2
+    optimal east parameters : 6.3000e-01, 2.3000e-01
+    optimal north parameters : 4.4000e-01, 4.0000e-02
+    optimal vertical parameters : 1.1200e+01, 1.1500e+00
+log likelihood :
+    east : 52560.2580226
+    north : 50650.9054421
+    vertical : 39522.9622176
+output file : sse/2009a/data.reml.txt
+
+--------------------------------------------------------------
