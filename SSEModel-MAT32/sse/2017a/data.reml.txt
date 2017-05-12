@@ -65,9 +65,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 45874.9039902
-    north : 44281.9450235
-    vertical : 34701.3219232
+    east : 45874.9039899
+    north : 44281.9450222
+    vertical : 34701.3219226
 output file : sse/2017a/data.reml.txt
 
 --------------------------------------------------------------

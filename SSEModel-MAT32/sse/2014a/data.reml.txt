@@ -3,21 +3,26 @@
 
 file : sse/2014a/data.h5
 units : m
-stations : 58
-times : 93
-observations : 15055
-time range : 2014-10-01, 2015-01-01
-longitude range : -125.541641065, -120.149583683
-latitude range : 46.5318563355, 49.2948104293
+stations : 94
+times : 124
+observations : 30937
+time range : 2014-10-01, 2015-02-01
+longitude range : -125.541641065, -120.005200237
+latitude range : 45.5379932138, 49.2948104293
 station names : ALBH, BAMF, BLYN, CHWK, CPXX, CSHQ, CSHR
-                KTBW, LINH, LKCP, NANO, NEAH, P064, P065
-                P398, P399, P400, P401, P402, P403, P413
-                P415, P416, P417, P418, P419, P420, P421
-                P423, P424, P426, P430, P431, P432, P434
-                P435, P436, P437, P438, P439, P440, P441
-                P442, P443, P444, P815, P816, PABH, PCOL
+                GOBS, KELS, KTBW, LINH, LKCP, NANO, NEAH
+                P064, P065, P397, P398, P399, P400, P401
+                P402, P403, P405, P407, P408, P409, P410
+                P411, P413, P414, P415, P416, P417, P418
+                P419, P420, P421, P423, P424, P425, P426
+                P429, P430, P431, P432, P434, P435, P436
+                P437, P438, P439, P440, P441, P442, P443
+                P444, P445, P446, P448, P687, P688, P689
+                P690, P691, P692, P693, P694, P695, P696
+                P697, P698, P699, P700, P701, P702, P703
+                P704, P705, P792, P815, P816, PABH, PCOL
                 PUPU, SC00, SC02, SC03, SC04, SEAT, SEDR
-                TWHL, UCLU
+                TPW2, TWHL, UCLU
 
 --------------------------------------------------------------
 
@@ -49,9 +54,9 @@ network :
     model : mat32-se
     parameter units : mm, yr, km
     fixed parameters : 
-    optimal east parameters : 8.0920e-01, 4.7641e-02, 9.9472e+01
-    optimal north parameters : 5.6591e-01, 4.4335e-02, 8.3460e+01
-    optimal vertical parameters : 3.8411e+00, 3.2686e-03, inf
+    optimal east parameters : 5.9864e-01, 2.3632e-02, 1.2151e+02
+    optimal north parameters : 4.8022e-01, 8.0017e-03, 4.5250e+02
+    optimal vertical parameters : 3.8507e+00, 3.5196e-03, 1.7437e+189
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -60,9 +65,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 26543.2881302
-    north : 25221.9957535
-    vertical : 19598.1428679
+    east : 54382.4313085
+    north : 52030.4349409
+    vertical : 41219.1681943
 output file : sse/2014a/data.reml.txt
 
 --------------------------------------------------------------

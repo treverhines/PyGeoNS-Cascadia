@@ -3,27 +3,26 @@
 
 file : sse/2010a/data.h5
 units : m
-stations : 103
-times : 93
-observations : 26563
-time range : 2010-07-01, 2010-10-01
+stations : 94
+times : 124
+observations : 32404
+time range : 2010-07-01, 2010-11-01
 longitude range : -125.541641065, -120.005200237
-latitude range : 45.0222796408, 49.2948104293
-station names : ALBH, BAMF, BLYN, CHWK, CHZZ, CPXX, CSHQ
-                CSHR, GOBS, KELS, KTBW, LINH, LKCP, NANO
-                NEAH, P064, P065, P395, P396, P397, P398
-                P399, P400, P401, P402, P403, P404, P405
-                P406, P407, P408, P409, P410, P411, P412
-                P413, P414, P415, P416, P417, P418, P419
-                P420, P421, P423, P424, P425, P426, P427
-                P428, P429, P430, P431, P432, P434, P435
-                P436, P437, P438, P439, P440, P441, P442
-                P443, P444, P445, P446, P448, P687, P688
-                P689, P690, P691, P692, P693, P694, P695
-                P696, P697, P698, P699, P700, P701, P702
-                P703, P704, P705, P791, P792, P815, P816
-                PABH, PCOL, PUPU, SC00, SC02, SC03, SC04
-                SEAT, SEDR, TPW2, TWHL, UCLU
+latitude range : 45.5379932138, 49.2948104293
+station names : ALBH, BAMF, BLYN, CHWK, CPXX, CSHQ, CSHR
+                GOBS, KELS, KTBW, LINH, LKCP, NANO, NEAH
+                P064, P065, P397, P398, P399, P400, P401
+                P402, P403, P405, P407, P408, P409, P410
+                P411, P413, P414, P415, P416, P417, P418
+                P419, P420, P421, P423, P424, P425, P426
+                P429, P430, P431, P432, P434, P435, P436
+                P437, P438, P439, P440, P441, P442, P443
+                P444, P445, P446, P448, P687, P688, P689
+                P690, P691, P692, P693, P694, P695, P696
+                P697, P698, P699, P700, P701, P702, P703
+                P704, P705, P792, P815, P816, PABH, PCOL
+                PUPU, SC00, SC02, SC03, SC04, SEAT, SEDR
+                TPW2, TWHL, UCLU
 
 --------------------------------------------------------------
 
@@ -55,9 +54,9 @@ network :
     model : ibm-se
     parameter units : mm/yr^1.5, mjd, km
     fixed parameters : 1
-    optimal east parameters : 2.0768e+02, 5.4832e+04, 9.8151e+01
-    optimal north parameters : 9.6985e+01, 5.4832e+04, 1.5879e+02
-    optimal vertical parameters : 2.2070e+04, 5.4832e+04, 1.6772e+14
+    optimal east parameters : 1.8639e+02, 5.4832e+04, 9.9094e+01
+    optimal north parameters : 9.0774e+01, 5.4832e+04, 1.5395e+02
+    optimal vertical parameters : 2.4222e+04, 5.4832e+04, 7.8431e+08
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -66,9 +65,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 47211.0607447
-    north : 45481.0389492
-    vertical : 35241.3392083
+    east : 57879.7605231
+    north : 55634.2659402
+    vertical : 43201.13533
 output file : sse/2010a/data.reml.txt
 
 --------------------------------------------------------------

@@ -1,0 +1,35 @@
+
+------------------ PYGEONS DATA INFORMATION ------------------
+
+file : BAMO.h5
+units : m
+stations : 1
+times : 2558
+observations : 7310
+time range : 2010-01-01, 2017-01-01
+longitude range : -117.204566187, -117.204566187
+latitude range : 40.4127505271, 40.4127505271
+station names : BAMO
+
+--------------------------------------------------------------
+
+---------------- PYGEONS REML RUN INFORMATION ----------------
+
+input file : BAMO.h5
+network :
+    model : 
+    parameter units : 
+    fixed parameters : 
+    initial east parameters : 
+    initial north parameters : 
+    initial vertical parameters : 
+station :
+    model : p0, p1, per, fogm
+    parameter units : mm/yr^0.5, yr^-1
+    fixed parameters : 
+    initial east parameters : 1.0000e+00, 1.0000e+00
+    initial north parameters : 1.0000e+00, 1.0000e+00
+    initial vertical parameters : 1.0000e+00, 1.0000e+00
+output file : BAMO.reml.txt
+
+--------------------------------------------------------------

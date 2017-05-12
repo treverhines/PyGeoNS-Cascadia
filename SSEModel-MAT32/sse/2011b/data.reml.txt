@@ -4,9 +4,9 @@
 file : sse/2011b/data.h5
 units : m
 stations : 94
-times : 93
-observations : 23946
-time range : 2011-07-01, 2011-10-01
+times : 124
+observations : 31904
+time range : 2011-07-01, 2011-11-01
 longitude range : -125.541641065, -120.005200237
 latitude range : 45.5379932138, 49.2948104293
 station names : ALBH, BAMF, BLYN, CHWK, CPXX, CSHQ, CSHR
@@ -54,9 +54,9 @@ network :
     model : mat32-se
     parameter units : mm, yr, km
     fixed parameters : 
-    optimal east parameters : 6.9042e-01, 3.1016e-02, 9.1486e+01
-    optimal north parameters : 6.4422e-01, 4.0037e-02, 1.0469e+02
-    optimal vertical parameters : 1.8134e+00, 2.4001e-03, 1.1902e+45
+    optimal east parameters : 1.0002e+00, 7.3729e-02, 6.4084e+01
+    optimal north parameters : 5.8145e-01, 3.8132e-02, 9.2774e+01
+    optimal vertical parameters : 2.6400e+00, 3.6814e-03, 9.5449e+46
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -65,9 +65,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 42332.0089225
-    north : 40703.7863503
-    vertical : 31524.457469
+    east : 56567.6575631
+    north : 54428.6445886
+    vertical : 42163.6620187
 output file : sse/2011b/data.reml.txt
 
 --------------------------------------------------------------
