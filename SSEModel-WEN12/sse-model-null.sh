@@ -14,8 +14,10 @@ cd $PBS_O_WORKDIR
 pygeons reml sse/null/data.h5 \
           --network-model wen12-se \
           --network-params 1.0 0.05 50.0 \
-          --station-model p0 p1 \
-          --station-params \
-          --station-fix \
-          -vv &> sse/null.log
+          --station-model p0 p1 fogm \
+          --station-params east     0.63 0.23 \
+                           north    0.44 0.04 \
+                           vertical 11.2 1.15 \
+          --station-fix 0 1 2 \
+          -vv &> /scratch/ehetland_flux/hinest/null.log
 
