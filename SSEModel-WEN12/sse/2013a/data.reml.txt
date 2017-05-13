@@ -1,12 +1,12 @@
 
 ------------------ PYGEONS DATA INFORMATION ------------------
 
-file : sse/2009a/data.h5
+file : sse/2013a/data.h5
 units : m
 stations : 87
-times : 124
-observations : 29566
-time range : 2009-07-01, 2009-11-01
+times : 121
+observations : 27464
+time range : 2013-02-01, 2013-06-01
 longitude range : -124.204582153, -120.005200237
 latitude range : 43.6143111943, 47.4995594431
 station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
@@ -27,7 +27,7 @@ station names : CHZZ, CORV, CPXX, CSHQ, CSHR, GOBS, KELS
 
 ---------------- PYGEONS REML RUN INFORMATION ----------------
 
-input file : sse/2009a/data.h5
+input file : sse/2013a/data.h5
 network :
     model : wen12-se
     parameter units : mm, yr, km
@@ -42,20 +42,20 @@ station :
     initial east parameters : 6.3000e-01, 2.3000e-01
     initial north parameters : 4.4000e-01, 4.0000e-02
     initial vertical parameters : 1.1200e+01, 1.1500e+00
-output file : sse/2009a/data.reml.txt
+output file : sse/2013a/data.reml.txt
 
 --------------------------------------------------------------
 
 -------------------- PYGEONS REML RESULTS --------------------
 
-input file : sse/2009a/data.h5
+input file : sse/2013a/data.h5
 network :
     model : wen12-se
     parameter units : mm, yr, km
     fixed parameters : 
-    optimal east parameters : 7.4309e-01, 1.3012e-01, 8.9653e+01
-    optimal north parameters : 6.1935e-01, 2.2465e-01, 5.7439e+01
-    optimal vertical parameters : 2.4089e+00, 7.5211e-03, 2.8251e+210
+    optimal east parameters : 1.0709e+00, 2.3778e-01, 3.5011e+01
+    optimal north parameters : 5.4391e-01, 1.9260e-01, 6.1420e+01
+    optimal vertical parameters : 2.9948e+00, 1.0310e-02, 4.5528e+90
 station :
     model : p0 p1 fogm
     parameter units : mm/yr^0.5, yr^-1
@@ -64,9 +64,9 @@ station :
     optimal north parameters : 4.4000e-01, 4.0000e-02
     optimal vertical parameters : 1.1200e+01, 1.1500e+00
 log likelihood :
-    east : 52553.711616
-    north : 50651.3675734
-    vertical : 39534.4482604
-output file : sse/2009a/data.reml.txt
+    east : 48537.0005365
+    north : 47427.0474398
+    vertical : 37101.8480592
+output file : sse/2013a/data.reml.txt
 
 --------------------------------------------------------------
