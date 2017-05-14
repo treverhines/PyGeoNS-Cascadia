@@ -53,7 +53,7 @@ for yr in 2009 2011 2013 2015 2017
   echo "#PBS -l nodes=1:ppn=8,mem=32000mb,walltime=40:00:00" >> $PBS_FILE
   echo "cd \$PBS_O_WORKDIR" >> $PBS_FILE
   echo "pygeons strain "$DATA_FILE" \\" >> $PBS_FILE
-  echo "        --network-prior-model wen12-se \\" >> $PBS_FILE
+  echo "        --network-prior-model spwen12-se \\" >> $PBS_FILE
   echo "        --network-prior-params 1.0 0.1 100.0 \\" >> $PBS_FILE
   echo "        --station-noise-model p0 p1 per \\" >> $PBS_FILE
   echo "        --station-noise-params \\" >> $PBS_FILE
@@ -77,7 +77,7 @@ for yr in 2009 2011 2013 2015 2017
   echo "#PBS -l nodes=1:ppn=8,mem=32000mb,walltime=40:00:00" >> $PBS_FILE
   echo "cd \$PBS_O_WORKDIR" >> $PBS_FILE
   echo "pygeons strain "$DATA_FILE" \\" >> $PBS_FILE
-  echo "        --network-prior-model wen12-se \\" >> $PBS_FILE
+  echo "        --network-prior-model spwen12-se \\" >> $PBS_FILE
   echo "        --network-prior-params 1.0 0.1 100.0 \\" >> $PBS_FILE
   echo "        --station-noise-model p0 p1 per \\" >> $PBS_FILE
   echo "        --station-noise-params \\" >> $PBS_FILE
@@ -101,7 +101,7 @@ for yr in 2009 2011 2013 2015 2017
   echo "#PBS -l nodes=1:ppn=8,mem=32000mb,walltime=40:00:00" >> $PBS_FILE
   echo "cd \$PBS_O_WORKDIR" >> $PBS_FILE
   echo "pygeons strain "$DATA_FILE" \\" >> $PBS_FILE
-  echo "        --network-prior-model wen12-se \\" >> $PBS_FILE
+  echo "        --network-prior-model spwen12-se \\" >> $PBS_FILE
   echo "        --network-prior-params 1.0 0.1 100.0 \\" >> $PBS_FILE
   echo "        --station-noise-model p0 p1 per \\" >> $PBS_FILE
   echo "        --station-noise-params \\" >> $PBS_FILE
